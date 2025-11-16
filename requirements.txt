@@ -1,0 +1,8 @@
+numpy
+pandas
+torch
+pytorch-lightning
+faiss-cpu
+optuna
+python-dotenv
+wandb

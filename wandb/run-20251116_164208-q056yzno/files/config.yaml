@@ -1,0 +1,166 @@
+_wandb:
+    value:
+        cli_version: 0.23.0
+        e:
+            fuql9x9uqblrl6of592s9qeyfbs9rffl:
+                codePath: c:\Users\xavie\Desktop\challenge_last\main.ipynb
+                codePathLocal: main.ipynb
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "499166212096"
+                        used: "466867544064"
+                email: delgiudice.1967219@studenti.uniroma1.it
+                executable: C:\Users\xavie\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+                gpu: NVIDIA GeForce RTX 4070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 5888
+                      memoryTotal: "12878610432"
+                      name: NVIDIA GeForce RTX 4070
+                      uuid: GPU-94d4b9c3-a55a-300d-0386-9d3673fe0fdd
+                host: DESKTOP-2TGIS4E
+                memory:
+                    total: "33433182208"
+                os: Windows-10-10.0.26200-SP0
+                program: c:\Users\xavie\Desktop\challenge_last\main.ipynb
+                python: CPython 3.11.9
+                root: c:\Users\xavie\Desktop\challenge_last
+                startedAt: "2025-11-16T15:42:08.782415Z"
+                writerId: fuql9x9uqblrl6of592s9qeyfbs9rffl
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 9
+                - 41
+                - 103
+            "2":
+                - 1
+                - 9
+                - 41
+                - 103
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.9
+            "5": 0.23.0
+            "8":
+                - 1
+                - 2
+                - 3
+            "12": 0.23.0
+            "13": windows-amd64
+batch_size:
+    value: 2000
+coco_npz_path:
+    value: data/coco_25.npz
+config:
+    value:
+        alpha_scheduler: null
+        batch_scheduler: null
+        batch_size: 2000
+        coco_npz_path: data/coco_25.npz
+        data_path: data
+        group_captions: true
+        lambda_mse: 7.876500463590652
+        loss_name: triplet
+        lr_scheduler_type: cosine
+        margin: 1.164467807751587
+        model:
+            activation_fun: torch.nn.modules.activation.SiLU
+            dropout_rate: 0.7042707796929302
+            hidden_dim: 2048
+            input_dim: 1024
+            normalize_out: true
+            output_dim: 1536
+            type: MlpConnector
+        multi_positive: true
+        num_anchors: 0
+        optimizer:
+            lr: 0.00030361953337802
+            weight_decay: 9.41586739869854e-06
+        project_name: Triplet
+        run_name: Golden_Submission
+        sample_hard_images: false
+        seed: 42
+        similarity_type: dot
+        standardize: false
+        symmetric: false
+        trainer:
+            accelerator: auto
+            gradient_clip_val: 1.089126334404685
+            max_epochs: 200
+            precision: 16
+        use_lr_scheduler: true
+        use_mse: true
+        val_log_chunks: false
+        val_mrr_batch_size: 0
+        val_mrr_folds: 0
+        val_num_caption_views: 0
+data_path:
+    value: data
+group_captions:
+    value: true
+lambda_mse:
+    value: 7.876500463590652
+loss_name:
+    value: triplet
+lr_scheduler_type:
+    value: cosine
+margin:
+    value: 1.164467807751587
+model:
+    value:
+        activation_fun: torch.nn.modules.activation.SiLU
+        dropout_rate: 0.7042707796929302
+        hidden_dim: 2048
+        input_dim: 1024
+        normalize_out: true
+        output_dim: 1536
+        type: MlpConnector
+multi_positive:
+    value: true
+num_anchors:
+    value: 0
+optimizer:
+    value:
+        lr: 0.00030361953337802
+        weight_decay: 9.41586739869854e-06
+project_name:
+    value: Triplet
+run_name:
+    value: Golden_Submission
+sample_hard_images:
+    value: false
+seed:
+    value: 42
+similarity_type:
+    value: dot
+standardize:
+    value: false
+symmetric:
+    value: false
+trainer:
+    value:
+        accelerator: auto
+        gradient_clip_val: 1.089126334404685
+        max_epochs: 200
+        precision: 16
+use_lr_scheduler:
+    value: true
+use_mse:
+    value: true
+val_log_chunks:
+    value: false
+val_mrr_batch_size:
+    value: 0
+val_mrr_folds:
+    value: 0
+val_num_caption_views:
+    value: 0

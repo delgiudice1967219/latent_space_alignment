@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-11-16T15:42:08.782415Z",
+  "program": "c:\\Users\\xavie\\Desktop\\challenge_last\\main.ipynb",
+  "codePath": "c:\\Users\\xavie\\Desktop\\challenge_last\\main.ipynb",
+  "codePathLocal": "main.ipynb",
+  "email": "delgiudice.1967219@studenti.uniroma1.it",
+  "root": "c:\\Users\\xavie\\Desktop\\challenge_last",
+  "host": "DESKTOP-2TGIS4E",
+  "executable": "C:\\Users\\xavie\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "499166212096",
+      "used": "466867544064"
+    }
+  },
+  "memory": {
+    "total": "33433182208"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070",
+      "memoryTotal": "12878610432",
+      "cudaCores": 5888,
+      "architecture": "Ada",
+      "uuid": "GPU-94d4b9c3-a55a-300d-0386-9d3673fe0fdd"
+    }
+  ],
+  "cudaVersion": "12.6",
+  "writerId": "fuql9x9uqblrl6of592s9qeyfbs9rffl"
+}
