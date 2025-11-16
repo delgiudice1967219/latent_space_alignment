@@ -1,0 +1,40 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "CPython 3.12.2",
+  "startedAt": "2025-11-16T17:27:08.451328Z",
+  "program": "c:\\Users\\xavie\\Desktop\\challenge_last\\main.ipynb",
+  "codePath": "c:\\Users\\xavie\\Desktop\\challenge_last\\main.ipynb",
+  "codePathLocal": "main.ipynb",
+  "git": {
+    "remote": "https://github.com/delgiudice1967219/latent_space_alignment.git",
+    "commit": "f25020237346edaea095522dffe8ff0440c3c9f2"
+  },
+  "email": "delgiudice.1967219@studenti.uniroma1.it",
+  "root": "c:\\Users\\xavie\\Desktop\\challenge_last",
+  "host": "DESKTOP-2TGIS4E",
+  "executable": "c:\\Users\\xavie\\Desktop\\challenge_last\\.venv\\Scripts\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "499166212096",
+      "used": "475869237248"
+    }
+  },
+  "memory": {
+    "total": "33433182208"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4070",
+      "memoryTotal": "12878610432",
+      "cudaCores": 5888,
+      "architecture": "Ada",
+      "uuid": "GPU-94d4b9c3-a55a-300d-0386-9d3673fe0fdd"
+    }
+  ],
+  "cudaVersion": "12.6",
+  "writerId": "pxq7l6wrqx5nbbbika1e0i4q37xju2ml"
+}
