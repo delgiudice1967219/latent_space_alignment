@@ -108,12 +108,9 @@ Contains a factory function to build models from the configuration dictionary.
     pip install -r requirements.txt
     ```
 
-2.  **Download Data:**
-    *(The notebook expects data to be present in a local folder path. This section can be updated with data download/setup instructions.)*
-
-3.  **Run the Notebook:**
+2.  **Run the Notebook:**
 
     Open and run the `main.ipynb` notebook.
     * **Section 3** defines the final, optimized `CONFIG`.
-    * **Section 4** executes the `run_experiment(CONFIG)` function to train the model and generate `Golden_Submission.csv`.
+    * **Section 4** executes the `run_experiment(CONFIG)` function to train the model and generate the `submission.csv`.
     * **Section 5** contains code to load and inspect the `tuning.db` Optuna database to show evidence of our hyperparameter tuning.
